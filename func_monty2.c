@@ -9,7 +9,7 @@
 void func_sub(stack_t **main, unsigned int count)
 {
 	stack_t *aux;
-	int su; 
+	int su;
 	int node;
 
 	aux = *main;
@@ -45,7 +45,7 @@ void func_sub(stack_t **main, unsigned int count)
 void func_div(stack_t **main, unsigned int count)
 {
 	stack_t *hx;
-	int le = 0; 
+	int le = 0;
 	int aux;
 
 	hx = *main;
@@ -84,15 +84,15 @@ void func_div(stack_t **main, unsigned int count)
 
 /**
  * func_mul - func to multiplies the top two elements of the stack.
- * @head: the stack head
- * @counter: the line_number
+ * @main: the stack head
+ * @count: the line_number
  * Return: no return
 */
 
 void func_mul(stack_t **main, unsigned int count)
 {
 	stack_t *hx;
-	int le = 0; 
+	int le = 0;
 	int aux;
 
 	hx = *main;
@@ -121,7 +121,7 @@ void func_mul(stack_t **main, unsigned int count)
 }
 
 /**
- * func_mod - func to computes the rest of the division 
+ * func_mod - func to computes the rest of the division
  * @main: the stack head
  * @count: the line_number
  * Return: no return
@@ -130,7 +130,7 @@ void func_mul(stack_t **main, unsigned int count)
 void func_mod(stack_t **main, unsigned int count)
 {
 	stack_t *hx;
-	int len = 0; 
+	int len = 0;
 	int aux;
 
 	hx = *main;

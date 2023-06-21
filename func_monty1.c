@@ -32,7 +32,7 @@ void func_pop(stack_t **main, unsigned int count)
 void func_swap(stack_t **main, unsigned int count)
 {
 	stack_t *hx;
-	int le = 0; 
+	int le = 0;
 	int aux;
 
 	hx = *main;
@@ -66,7 +66,7 @@ void func_swap(stack_t **main, unsigned int count)
 void func_add(stack_t **main, unsigned int count)
 {
 	stack_t *hx;
-	int le = 0; 
+	int le = 0;
 	int ax;
 
 	hx = *main;

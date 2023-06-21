@@ -5,11 +5,11 @@
  * @main: the head of the stack
  * @n: the new_value
  * Return: no return
-*/
+ */
 
 void addqueue(stack_t **main, int n)
 {
-	stack_t *newnode; 
+	stack_t *newnode;
 	stack_t *ax;
 
 	ax = *main;
@@ -50,7 +50,7 @@ void addqueue(stack_t **main, int n)
  * @main: the stack head
  * @count: the line_number
  * Return: no return
-*/
+ */
 
 void func_queue(stack_t **main, unsigned int count)
 {
@@ -64,7 +64,7 @@ void func_queue(stack_t **main, unsigned int count)
  * @main: the stack head
  * @count: the line_number
  * Return: no return
-*/
+ */
 
 void func_stack(stack_t **main, unsigned int count)
 {
@@ -78,11 +78,11 @@ void func_stack(stack_t **main, unsigned int count)
  * @main: the head of the stack
  * @n: the new_value
  * Return: no return
-*/
+ */
 void addnode(stack_t **main, int n)
 {
 
-	stack_t *newnode; 
+	stack_t *newnode;
 	stack_t *aux;
 
 	aux = *main;
@@ -93,7 +93,7 @@ void addnode(stack_t **main, int n)
 	{
 		printf("Error\n");
 		exit(0);
-       	}
+	}
 
 	if (aux)
 	{

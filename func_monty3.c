@@ -69,7 +69,7 @@ void func_pstr(stack_t **main, unsigned int count)
  */
 void func_rotl(stack_t **main,  __attribute__((unused)) unsigned int count)
 {
-	stack_t *temp = *main; 
+	stack_t *temp = *main;
 	stack_t *aux;
 
 	if (*main == NULL || (*main)->next == NULL)

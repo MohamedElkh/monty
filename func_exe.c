@@ -49,9 +49,7 @@ int execute(char *cont, stack_t **main, unsigned int count, FILE *file)
 	{
 		return (0);
 	}
-
 	bovalue.args = strtok(NULL, " \n\t");
-
 	while (opstf[x].opcode && opx)
 	{
 		if (strcmp(opx, opstf[x].opcode) == 0)
@@ -64,14 +62,12 @@ int execute(char *cont, stack_t **main, unsigned int count, FILE *file)
 	}
 	if (opx && opstf[x].opcode == NULL)
 	{
-	
+
 		fprintf(stderr, "L%d: unknown instruction %s\n", count, opx);
 		fclose(file);
 		free(cont);
-
 		free_stack(*main);
 		exit(EXIT_FAILURE);
 	}
-
 	return (1);
 }

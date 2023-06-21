@@ -46,7 +46,7 @@ typedef struct instruction_s
  * @cont: the content
  * @args: the value
  * @lifev: the flag to change.
- * @file: the pointer to monty 
+ * @file: the pointer to monty
  * Description: carries values through the program
  */
 
@@ -59,6 +59,7 @@ typedef struct bovalue_s
 }  bovalue_t;
 
 extern bovalue_t bovalue;
+
 
 /* func_monty1 */
 void func_pop(stack_t **main, unsigned int count);

@@ -1,7 +1,6 @@
 #include "monty.h"
 
 bovalue_t bovalue = {NULL, NULL, 0, NULL};
-
 /**
 * main - monty code interpreter
 * @argc: number of arguments
@@ -40,7 +39,6 @@ int main(int argc, char *argv[])
 		bovalue.cont = cont;
 
 		count++;
-
 		if (readline > 0)
 		{
 			execute(cont, &stack, count, file);
@@ -48,10 +46,7 @@ int main(int argc, char *argv[])
 
 		free(cont);
 	}
-
 	free_stack(stack);
-
 	fclose(file);
-
 return (0);
 }
