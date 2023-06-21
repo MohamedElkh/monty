@@ -90,8 +90,8 @@ int execute(char *cont, stack_t **main, unsigned int count, FILE *file);
 void free_stack(stack_t *main);
 /* here only on monty.h  */
 char *_realloc(char *ptr, unsigned int old_value, unsigned int new_value);
-ssize_t getstdin(char **linep, int file);
-char  *clean_line(char *cont);
+ssize_t getstd(char **linep, int file);
+char  *clean(char *cont);
 
 
 #endif
