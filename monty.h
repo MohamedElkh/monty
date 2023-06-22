@@ -79,8 +79,8 @@ void func_rotr(stack_t **main, unsigned int count);
 /* func_monty4 */
 void func_queue(stack_t **main, unsigned int count);
 void func_stack(stack_t **main, unsigned int count);
-void addnode(stack_t **main, int n);
-void addqueue(stack_t **main, int n);
+void addnode(stack_t **main, int num);
+void addqueue(stack_t **main, int num);
 /* func_help */
 void func_push(stack_t **main, unsigned int count);
 void func_pall(stack_t **main, unsigned int count);

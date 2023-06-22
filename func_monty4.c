@@ -7,7 +7,7 @@
  * Return: no return
  */
 
-void addqueue(stack_t **main, int n)
+void addqueue(stack_t **main, int num)
 {
 	stack_t *newnode;
 	stack_t *ax;
@@ -21,7 +21,7 @@ void addqueue(stack_t **main, int n)
 		printf("Error\n");
 	}
 
-	newnode->n = n;
+	newnode->n = num;
 	newnode->next = NULL;
 
 	if (ax)
@@ -79,7 +79,7 @@ void func_stack(stack_t **main, unsigned int count)
  * @n: the new_value
  * Return: no return
  */
-void addnode(stack_t **main, int n)
+void addnode(stack_t **main, int num)
 {
 
 	stack_t *newnode;
@@ -100,7 +100,7 @@ void addnode(stack_t **main, int n)
 		aux->prev = newnode;
 	}
 
-	newnode->n = n;
+	newnode->n = num;
 	newnode->next = *main;
 
 	newnode->prev = NULL;
